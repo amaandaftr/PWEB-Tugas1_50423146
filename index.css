@@ -1,0 +1,28 @@
+:root {
+  --dark-brown: #2b1e17;
+  --mid-brown: #3a271c;
+  --cream: #f3e0d0;
+  --white: #ffffff;
+  --black: #1a1a1a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  /* BACKGROUND GRADIENT */
+  background: linear-gradient(
+    to bottom,
+    var(--dark-brown) 0%,
+    var(--mid-brown) 40%,
+    var(--cream) 100%
+  );
+
+  color: var(--white);
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}

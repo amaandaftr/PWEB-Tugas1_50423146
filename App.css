@@ -1,0 +1,93 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* JUDUL */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #e6d2b5;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+/* CARD PRODUK */
+.card {
+  background: #f7e7d8;
+  color: #2b1e17;
+  padding: 16px;
+  border-radius: 16px;
+  width: 230px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.card h3 {
+  margin: 12px 0 4px;
+}
+
+.card p {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+/* BUTTON */
+button {
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #3a271c;
+}
+
+/* KERANJANG */
+h2 {
+  color: #2b1e17;
+}
+
+p {
+  color: #2b1e17;
+}
+
+/* JUDUL SECTION (Checkout, Keranjang, dll) */
+.section-title {
+  color: #e6d2b5; /* sama dengan Bakery Shop */
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 30px 0 20px;
+}
+
+/* JUDUL UTAMA & SECTION */
+.section-title {
+  color: #e6d2b5; /* warna cream Bakery Shop */
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 30px 0 20px;
+}
